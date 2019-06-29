@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthias Scharnowski</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Roboto:300,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li class="nav__item"><a href="index.html">Home</a></li>
+                    <li class="nav__item"><a href="about.html">About</a></li>
+                    <li class="nav__item"><a href="work.html">Work</a></li>
+                    <li class="nav__item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+                <div class="contact-box fade-in">
+                    <h1 class="contact-box__heading">
+                        Contact Matthias
+                    </h1>    
+                    <form action="form-handler.php" method="post" id="contact-form">
+                            <label class="standard-label" for="contact-email">E-Mail:</label>
+                            <input type="email" class="contact-input" id="contact-email" required>
+                            <label class="standard-label" for="contact-phone">Telephone:</label>
+                            <input type="tel" class="contact-input" id="contact-phone">
+                            <label class="standard-label" for="contact-message">Message:</label>
+                            <textarea required maxlength="240" id="contact-message"></textarea>
+                            <input class="standard-label btn__secondary" type="submit" value="Send Message">
+                         </form>
+                </div>
+        </main>
+    </div>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+</body>
+</html>
