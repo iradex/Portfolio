@@ -459,7 +459,11 @@
 	.box-e {
 		-ms-grid-row: 5;
 		-ms-grid-column: 3;
-	}
+    }
+    
+    .intro-box {
+        margin-bottom: 2rem;
+    }
   }
 
   @media (max-width: 600px) {
